@@ -102,7 +102,7 @@ jobs:
           - { os: windows, arch: amd64, legacy_win7: true, legacy_name: "windows-7" }
           - { os: windows, arch: "386", legacy_win7: true, legacy_name: "windows-7" }
 
-          - { os: android, arch: arm64, ndk: "aarch64-linux-android23" }
+          - { os: android, arch: arm64, ndk: "aarch64-linux-android23", naive: true }
           - { os: android, arch: arm, ndk: "armv7a-linux-androideabi23" }
           - { os: android, arch: amd64, ndk: "x86_64-linux-android23" }
           - { os: android, arch: "386", ndk: "i686-linux-android23" }
